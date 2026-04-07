@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
 """
-Annotate the make_multiplier function's parameters and return
+Type‑annotated function make_multiplier
 """
 
 
 from typing import Callable
 
 
-
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """
-	Returns a function that multiplies a float by the given multiplier.
-	"""
+    Return a function that multiplies a float by the given multiplier.
+    """
     def multiplier_func(x: float) -> float:
         return x * multiplier
 
