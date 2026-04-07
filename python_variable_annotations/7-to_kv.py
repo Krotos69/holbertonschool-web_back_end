@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Annotate the to_kv function's parameters and return values with the appropriate types."""
+"""
+Annotate the to_kv function's parameters and return 
+values with the appropriate types.
+"""
 
 from typing import Union, Tuple
 
