@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Annotate the to_kv function's parameters and return 
+Annotate the to_kv function's parameters and return
 values with the appropriate types.
 """
 
