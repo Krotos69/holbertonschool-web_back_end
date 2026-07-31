@@ -4,6 +4,7 @@ Module for summing a list of floats.
 Provides sum_list(input_list) which returns the total as a float.
 """
 
+
 from typing import List
 
 def sum_list(input_list: List[float]) -> float:
