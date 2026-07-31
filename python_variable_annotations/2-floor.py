@@ -4,6 +4,7 @@ Module for a typed floor function.
 Provides floor(n) which returns the floor of a float.
 """
 
+
 def floor(n: float) -> int:
     """
     Return the floor of a float.
