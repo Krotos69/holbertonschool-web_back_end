@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Async comprehension module."""
 
-
 from typing import List
 
 
