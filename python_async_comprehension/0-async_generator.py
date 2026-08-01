@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Module for async generator task."""
 
+
 import asyncio
 import random
 from typing import Generator
