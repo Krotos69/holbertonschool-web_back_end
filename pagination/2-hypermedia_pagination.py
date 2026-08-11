@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Simple pagination: Server class with get_page method.
+Hypermedia pagination: Server class with get_hyper method.
 """
 
 import csv
@@ -46,13 +46,6 @@ class Server:
     def get_page(self, page: int = 1, page_size: int = 10) -> List[List]:
         """
         Return a page of the dataset.
-
-        Args:
-            page (int): page number (1-indexed)
-            page_size (int): number of items per page
-
-        Returns:
-            List[List]: the requested page of the dataset
         """
         assert isinstance(page, int) and page > 0
         assert isinstance(page_size, int) and page_size > 0
@@ -64,7 +57,6 @@ class Server:
             return []
 
         return dataset[start:end]
-
 
     def get_hyper(self, page: int = 1, page_size: int = 10) -> dict:
         """
