@@ -7,11 +7,9 @@ Node.js is a powerful, event‑driven JavaScript runtime that lets you build ser
 
 
 
-
-
 ---
 
-## Questions & Expanded Answers  
+## Learning Objectives  
 
 ### 1. Run JavaScript using NodeJS  
 Node.js executes JavaScript directly from the terminal using the V8 engine.  
